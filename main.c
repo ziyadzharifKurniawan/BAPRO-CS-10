@@ -14,8 +14,9 @@ void decrypt(char *message, char *key) {
 }
 
 int main() {
-    char message[] = "0?13j#s^kd!ncji0"; // Message to encrypt
-    char key[] = "temporary_key";              // Encryption key
+     char message[] = "0X`RLmhiQH.VT1b[F"; // Message to encrypt
+	 char *key = "temporary_key";                // Encryption key
+
 
     // Decrypt the message
     decrypt(message, key);
